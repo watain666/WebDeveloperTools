@@ -91,11 +91,4 @@
 
 }(this, document, punycode.toASCII, punycode.toUnicode));
 
-// Google Analytics
-window._gaq = [['_setAccount', 'UA-6065217-60'], ['_trackPageview']];
-(function(d, t) {
-	var g = d.createElement(t);
-	var s = d.getElementsByTagName(t)[0];
-	g.src = 'https://www.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g, s);
-}(document, 'script'));
+
